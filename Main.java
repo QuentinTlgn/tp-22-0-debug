@@ -29,7 +29,7 @@ public class Main {
         System.out.println("Comparaison de chaînes : " + (str1 == str2.intern()));
 
         // Problème 6
-        Main mainObj = null;
+        Main mainObj = new Main();
         mainObj.method();
     }
 
