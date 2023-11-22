@@ -25,7 +25,8 @@ public class Main {
         // Problème 5
         String str1 = "Hello";
         String str2 = new String("Hello");
-        System.out.println("Comparaison de chaînes : " + (str1 == str2));
+        //Il serait plus optimisé de le déclarer comme le premier, mais j'ai joué le jeu de le garder ainsi :)
+        System.out.println("Comparaison de chaînes : " + (str1 == str2.intern()));
 
         // Problème 6
         Main mainObj = null;
