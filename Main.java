@@ -19,8 +19,8 @@ public class Main {
         // Problème 4
         String message = "Bonjour";
         System.out.println("Longueur du message : " + message.length());
-        char character = message.charAt(10);
-        System.out.println("Caractère à l'indice 10 : " + character);
+        char character = message.charAt(message.length()-1);
+        System.out.println("Caractère à l'indice "+(message.length()-1)+" : " + character);
 
         // Problème 5
         String str1 = "Hello";
