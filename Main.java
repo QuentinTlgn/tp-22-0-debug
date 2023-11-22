@@ -12,9 +12,8 @@ public class Main {
 
         // Problème 3
         int count = 10;
-        while (count > 0) {
-            System.out.println("Count: " + count);
-            count += 2;
+        for(int i =0; i<=count ; i+=2) {
+            System.out.println("Count: " + i);
         }
 
         // Problème 4
