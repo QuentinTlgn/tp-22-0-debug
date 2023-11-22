@@ -35,7 +35,13 @@ public class Main {
 
     // Méthode pour le problème de division par zéro
     public static int calculateValue(int a, int b) {
+    	if (b == 0) {
+    		System.out.println("Impossible, division par zéro");
+    		return 0;
+    	}
+    	else {
         return a / b;
+    	}
     }
 
     // Méthode pour le problème d'utilisation incorrecte d'une méthode de classe
